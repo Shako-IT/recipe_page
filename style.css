@@ -11,3 +11,49 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe {
+  width: 736px;
+  height: 1700px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.omelette {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.intro {
+  border: 3px solid green;
+}
+
+.time {
+  border: 3px solid red;
+}
+
+.ingredients {
+  border: 3px solid green;
+}
+
+.instructions {
+  border: 3px solid grey;
+}
+
+.nutrition {
+  border: 3px solid blue;
+}
